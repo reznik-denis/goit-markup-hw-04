@@ -242,11 +242,15 @@ img {
     border-top: 1px solid var(--border-footer-solid);
 }
 
-.img-footer {
-    display: block;
-    padding: 12px;
+.footer-social > .social-footer-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
 
     background-color: var(--border-footer-solid);
+    border-radius: 22px;
 }
 
 .footer-colums {
