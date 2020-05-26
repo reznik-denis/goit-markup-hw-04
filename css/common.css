@@ -12,6 +12,7 @@
     --border-bottom-color: #ECECEC;
     --border-footer-solid: rgba(255, 255, 255, 0.1);
     --border-customers-color: #AFB1B8;
+    --border-our-team-color: #EEEEEE;
 }
 
 body {
@@ -251,6 +252,10 @@ img {
 
     background-color: var(--border-footer-solid);
     border-radius: 22px;
+}
+
+.footer-social > .social-footer-link:hover, .footer-social > .social-footer-link:focus {
+    background-color: var(--accent-color);
 }
 
 .footer-colums {
