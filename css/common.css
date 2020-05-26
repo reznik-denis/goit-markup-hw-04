@@ -145,6 +145,22 @@ img {
     color: var(--accent-color);
 }
 
+.icon-mail::before {
+    content: "";
+    width: 16px;
+    background-image: url("../images/mail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-tel::before {
+    content: "";
+    width: 10px;
+    background-image: url("../images/telefone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Футер сайта */
 .footer {
     background-color: var(--footer-bacground-color);
