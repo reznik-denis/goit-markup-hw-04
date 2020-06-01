@@ -149,12 +149,21 @@ img {
 
 .icon-mail {
     margin-right: 10px;
+    fill: var(--text-color);
 }
 
 .icon-tel {
     margin-right: 10px;
+    fill: var(--text-color);
 }
 
+.icon-mail:hover, .icon-mail:focus {
+    fill: var(--accent-color);
+}
+
+.icon-tel:hover, .icon-tel:focus {
+    fill: var(--accent-color);
+}
 /* Футер сайта */
 .footer {
     background-color: var(--footer-bacground-color);
