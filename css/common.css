@@ -91,10 +91,6 @@ img {
     display: flex;
 }
 
-.contacts-main .link-contact {
-    display: flex;
-}
-
 .logo:hover, .logo:focus {
     color: var(--accent-color);
 }
@@ -152,16 +148,11 @@ img {
 }
 
 .icon-mail {
-    display: block;
     margin-right: 10px;
 }
 
-.icon-tel::before {
-    content: "";
-    width: 10px;
-    background-image: url("../images/telefone.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+.icon-tel {
+    margin-right: 10px;
 }
 
 /* Футер сайта */
