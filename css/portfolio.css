@@ -1,3 +1,14 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .main-button {
     display: flex;
     justify-content: center;
@@ -38,6 +49,10 @@
 
     border: 1px solid var(--border-our-team-color);
     border-radius: 5px;
+}
+
+.our-works .item:hover, .our-works .item:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .img-our-team {
