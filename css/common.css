@@ -259,6 +259,21 @@ img {
     background-color: var(--accent-color);
 }
 
+.bacground-footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-white-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.icon-footer {
+    display: block;
+    fill: currentColor
+}
+
 .footer-colums {
     display: flex;
     align-items: baseline;
